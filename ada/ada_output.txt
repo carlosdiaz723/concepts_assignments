@@ -1,0 +1,14 @@
+$ gcc -c complex.adb
+$ gcc -c test_complex.adb
+$ gnatbind test_complex
+$ gnatlink test_complex
+$ ./test_complex
+Enter real part of first number: 5
+Enter imaginary part of first number: 7
+Enter real part of second number: 6
+Enter imaginary part of second number: 2
+Addition:  11.00 +  9.00i
+Subtraction:  -1.00 +  5.00i
+Multiplication:  16.00 + 52.00i
+Division:   1.10 +  0.80i
+$ 
